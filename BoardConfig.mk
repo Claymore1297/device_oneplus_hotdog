@@ -12,9 +12,6 @@ DEVICE_PATH := device/oneplus/hotdog
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_hotdog
 TARGET_RECOVERY_DEVICE_MODULES := libinit_hotdog
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
-
 # Display
 TARGET_SCREEN_DENSITY := 560
 
